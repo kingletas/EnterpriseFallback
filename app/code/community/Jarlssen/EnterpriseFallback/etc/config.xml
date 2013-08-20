@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Jarlssen_EnterpriseFallback>
+            <version>0.1.0</version>
+        </Jarlssen_EnterpriseFallback>
+    </modules>
+    <global>
+        <helpers>
+            <jarlssen_enterprisefallback>
+                <class>Jarlssen_EnterpriseFallback_Helper</class>
+            </jarlssen_enterprisefallback>
+        </helpers>
+        <models>
+            <jarlssen_enterprisefallback>
+                <class>Jarlssen_EnterpriseFallback_Model</class>
+            </jarlssen_enterprisefallback>
+            <core>
+                <rewrite>
+                    <design_package>Jarlssen_EnterpriseFallback_Model_Design_Package</design_package>
+                </rewrite>
+            </core>
+        </models>
+    </global>
+</config>
